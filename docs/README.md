@@ -30,12 +30,26 @@ A simple personal finance tracker written in Python that helps you log, categori
 
 Below are some sample screenshots:
 
-1. **Main UI / CLI prompt** — show what the user sees when they launch the app.  
-2. **Add Transaction** — screenshot or terminal view of adding a transaction.  
-3. **View Transaction List / Summary** — screenshot of listing all transactions or summarizing by category or month.  
-4. **Category Settings / JSON file view** — optionally show categories.json or how categories are adjusted.  
+### Dashboard – Upload & Manage Transactions
+This screen lets you upload your transaction CSV, add new categories, and see your expenses in a clean table.
 
-_Add screenshots as `.png` or `.jpg` files in a folder like `docs/` or `assets/`, and reference them here._
+![Dashboard](docs/Adding_Categories.png)
+
+---
+
+### Expense Summary – By Category
+This view shows a breakdown of expenses grouped by category, along with a pie chart for better visualization.
+
+![Summary View](docs/Summary_View.png)
+
+---
+
+### Upload Transactions – CSV Import
+This screen allows you to import your transaction data directly from a CSV file. Simply click **“Upload CSV”**, select your file, and the transactions will be added to your dashboard automatically.
+
+![Upload CSV](docs/Upload_CSV.png)
+
+---
 
 ## Installation
 
