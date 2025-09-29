@@ -1,46 +1,54 @@
-# PersonalFinance
+# PersonalFinance-with-Python 💰
 
-A simple personal finance tracker written in Python that helps you log, categorize, and analyze your transactions.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)]()
 
-## Table of Contents
-
-- [Features](#features)  
-- [Demo / Screenshots](#demo--screenshots)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Configuration / Data Files](#configuration--data-files)  
-- [Requirements](#requirements)  
-- [How It Works](#how-it-works)  
-- [Future Improvements](#future-improvements)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Acknowledgements](#acknowledgements)  
+A lightweight personal finance tracker built with Python.  
+Easily log income and expenses, categorize transactions, and analyze spending with summaries and reports.
 
 ---
 
-## Features
+## 📋 Table of Contents
 
-- Log daily transactions (income / expense)  
-- Assign categories (e.g. Food, Rent, Utilities)  
-- Read/Write from a CSV (`Transaction.csv`)  
-- Categories defined in a JSON file (`categories.json`)  
-- (If applicable) summary, balance, filtering by date or category  
+- [Features](#-features)  
+- [Screenshots](#-screenshots)  
+- [Getting Started](#-getting-started)  
+- [Usage](#-usage)  
+- [Project Structure](#-project-structure)  
+- [Configuration & Data Files](#-configuration--data-files)  
+- [Requirements](#-requirements)  
+- [Roadmap](#-roadmap)  
+- [Contributing](#-contributing)  
+- [License](#-license)  
 
-## Demo / Screenshots
+---
 
-Below are some sample screenshots:
+## ✨ Features
 
-1. **Main UI / CLI prompt** — show what the user sees when they launch the app.  
-2. **Add Transaction** — screenshot or terminal view of adding a transaction.  
-3. **View Transaction List / Summary** — screenshot of listing all transactions or summarizing by category or month.  
-4. **Category Settings / JSON file view** — optionally show categories.json or how categories are adjusted.  
+- Log daily **income** and **expenses**
+- Assign transactions to **custom categories**
+- View **summaries** by category and date range
+- Store transactions in simple **CSV & JSON files**
+- Minimal dependencies, fast and easy to extend
 
-_Add screenshots as `.png` or `.jpg` files in a folder like `docs/` or `assets/`, and reference them here._
+---
 
-## Installation
+## 🖼 Screenshots
 
-**1. Clone the repo**
+### Adding a Transaction (CSV Entry)
+![Add CSV](docs/Add_CSV.png)
 
+### Adding Categories
+![Adding Categories](docs/Adding_Categories.png)
+
+### Viewing a Summary
+![Summary View](docs/Summary_View.png)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-git clone https://github.com/Sahdevnyc/PersonalFinance.git
-cd PersonalFinance
+git clone https://github.com/Sahdevnyc/PersonalFinance-with-Python.git
+cd PersonalFinance-with-Python
